@@ -35,7 +35,7 @@ return(<div className="Jumbotron" fluid>
   <Row xs={1} sm={1}>
     <Card.Body>
       <Image src={Lin} thumbnail />
-      <div className="card-title ">
+      <div className="card-title mt-2">
       <h> Linkedin Demo</h>
       
        <p> Building linkedin wasn't easy enough,since we were asked to retrieve the data from each student and we were asked to use our jwt and server endpoints,most part was backend coding</p> 
@@ -43,14 +43,14 @@ return(<div className="Jumbotron" fluid>
     </Card.Body>
     <Card.Body>
       <Image src={Net} thumbnail />
-      <div className="card-title ">
+      <div className="card-title mt-2">
        <h>Netflix Demo</h>
        <p>Netflix was our second project with my team,we were asked to make it looks like Netflix by styling and using routers,actually we focused on the frontend and navigation</p> 
        </div>
        </Card.Body>
        <Card.Body>
       <Image src={Spo} thumbnail />
-      <div className="card-title ">
+      <div className="card-title mt-2">
       <h>Spotify Demo</h>
       <Card.Text>Spotify was very challenging,it has some of the features like,audio that was only js codes () and display the data we've fetched from rapidapi </Card.Text></div>
       </Card.Body>
