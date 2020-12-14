@@ -4,6 +4,7 @@ import pic from "../images/me.jpg"
 import Spo from "../images/spo.jpeg"
 import Lin from "../images/link.jpeg"
 import Net from "../images/net.jpeg"
+import Am from "../images/amon.png"
 import { IoLogoNodejs,IoLogoHtml5} from "react-icons/io";
 import { FaBootstrap ,FaGithub,FaDatabase} from "react-icons/fa";
 import { DiReact } from "react-icons/di"
@@ -53,6 +54,12 @@ return(<div className="Jumbotron" fluid>
       <div className="card-title mt-2">
       <h>Spotify Demo</h>
       <Card.Text>Spotify was very challenging,it has some of the features like,audio that was only js codes () and display the data we've fetched from rapidapi </Card.Text></div>
+      </Card.Body>
+      <Card.Body>
+      <a href="https://amoncompany.com"> <Image w="20px"src={Am} thumbnail /></a>
+      <div className="card-title mt-2">
+      <h>Amon Company</h>
+      <Card.Text>Amon company was my first e-commerce application made by using wix, which at the end pushed me to go into real life coding</Card.Text></div>
       </Card.Body>
   </Row>
 </Container>
